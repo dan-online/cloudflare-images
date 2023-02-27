@@ -369,6 +369,12 @@ declare module "@dan-online/cloudflare-images" {
              */
             listImages(request: Requests.ListImages): Promise<Responses.ListImages>
             /**
+             * Create a direct upload URL.
+             *
+             * [API Docs](https://api.cloudflare.com/#cloudflare-images-create-direct-upload)
+             */
+            createDirectUpload(request: Requests.CreateDirectUpload): Promise<Responses.CreateDirectUpload>
+            /**
              * Fetch details for a single image.
              *
              * [API Docs](https://api.cloudflare.com/#cloudflare-images-image-details)
