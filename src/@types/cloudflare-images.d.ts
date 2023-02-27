@@ -454,6 +454,7 @@ declare module "@dan-online/cloudflare-images" {
             createImageFromBuffer(request: Requests.CreateImage, buffer: Buffer): Promise<Responses.CreateImage>
             createImageFromFile(request: Requests.CreateImage, path: string): Promise<Responses.CreateImage>
             createImageFromUrl(request: Requests.CreateImage, url: string): Promise<Responses.CreateImage>
+            createDirectUpload(request: Requests.CreateDirectUpload): Promise<Responses.CreateDirectUpload>
             listImages(request: Requests.ListImages): Promise<Responses.ListImages>
             getImage(imageId: string): Promise<Responses.GetImage>
             downloadImage(imageId: string): Promise<Blob>
