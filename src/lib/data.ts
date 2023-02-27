@@ -1,6 +1,6 @@
 import type { Method } from "axios"
-import type { Operation } from "cloudflare-images"
-import Cloudflare from "cloudflare-images"
+import type { Operation } from "@dan-online/cloudflare-images"
+import Cloudflare from "@dan-online/cloudflare-images"
 import { urlJoin } from "./url-join"
 
 const BASE_URL = "https://api.cloudflare.com/client/v4"

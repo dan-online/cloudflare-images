@@ -1,9 +1,9 @@
 {
-    "name": "cloudflare-images",
-    "version": "1.1.1",
+    "name": "@dan-online/cloudflare-images",
+    "version": "1.1.2",
     "description": "A wrapper around the Cloudflare Images API.",
     "license": "MIT",
-    "repository": "github:tcd/cloudflare-images",
+    "repository": "github:dan-online/cloudflare-images",
     "bugs": "https://github.com/tcd/cloudflare-images/issues",
     "author": "Clay Dunston <dunstontc@gmail.com>",
     "files": [

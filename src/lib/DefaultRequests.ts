@@ -1,4 +1,4 @@
-import { Requests, Operation } from "cloudflare-images"
+import { Requests, Operation } from "@dan-online/cloudflare-images"
 
 const image_create: () => Requests.CreateImage = () => ({
     id: null,

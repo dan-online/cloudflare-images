@@ -1,4 +1,4 @@
-declare module "cloudflare-images" {
+declare module "@dan-online/cloudflare-images" {
     export = Cloudflare;
     namespace Cloudflare {
 

@@ -9,7 +9,7 @@ import {
     Logging,
     ICloudflareClient,
     Operation,
-} from "cloudflare-images"
+} from "@dan-online/cloudflare-images"
 import { isBlank } from "./is-blank"
 import { urlJoin } from "./url-join"
 import { DefaultRequests } from "./DefaultRequests"
